@@ -3,7 +3,6 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "circle ext with data ext": "github:wecodemakecode/circle-ext-with-data-ext#master",
         "circle best ext": "github:wecodemakecode/circle-best-ext#master"
     },
     "files": [
