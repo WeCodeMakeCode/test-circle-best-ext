@@ -1,7 +1,7 @@
  
 
 
-> Open this page at [https://wecodemakecode.github.io/test-circle-with-data-ext/](https://wecodemakecode.github.io/test-circle-with-data-ext/)
+> Open this page at [https://wecodemakecode.github.io/test-circle-best-ext/](https://wecodemakecode.github.io/test-circle-with-data-ext/)
 
 ## Use as Extension
 
@@ -10,7 +10,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/wecodemakecode/test-circle-with-data-ext** and import
+* search for **https://github.com/wecodemakecode/test-circle-best-ext** and import
 
 ## Edit this project ![Build status badge](https://github.com/wecodemakecode/test-circle-with-data-ext/workflows/MakeCode/badge.svg)
 
@@ -18,14 +18,14 @@ To edit this repository in MakeCode.
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/wecodemakecode/test-circle-with-data-ext** and click import
+* paste **https://github.com/wecodemakecode/test-circle-wbest-ext** and click import
 
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
-![A rendered view of the blocks](https://github.com/wecodemakecode/test-circle-with-data-ext/raw/master/.github/makecode/blocks.png)
+![A rendered view of the blocks](https://github.com/wecodemakecode/test-circle-best-ext/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
