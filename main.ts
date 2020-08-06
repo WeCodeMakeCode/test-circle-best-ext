@@ -5,14 +5,14 @@ function dumpCircleData (circle2: Sprite) {
     console.logValue("filled", circle.getFilled(circle2))
 }
 let myCircleSprite: Sprite = null
-for (let index = 0; index < 1; index++) {
-    myCircleSprite = circle.createCircle(60, 2)
+for (let index = 0; index < 3; index++) {
+    myCircleSprite = circle.createCircle(randint(10, 60), 2)
     dumpCircleData(myCircleSprite)
     pause(2000)
     circle.fill(myCircleSprite)
     dumpCircleData(myCircleSprite)
     pause(2000)
-    circle.setColor(myCircleSprite, 2)
+    circle.setColor(myCircleSprite, circle.randomColor(3, 0, 15, 2))
     dumpCircleData(myCircleSprite)
     pause(2000)
     circle.unfill(myCircleSprite)
@@ -20,4 +20,10 @@ for (let index = 0; index < 1; index++) {
     pause(2000)
     circle.fill(myCircleSprite)
     dumpCircleData(myCircleSprite)
+    pause(2000)
+    myCircleSprite.setVelocity(50, 50)
+    myCircleSprite.setFlag(SpriteFlag.BounceOnWall, true)
+    pause(2000)
+    myCircleSprite.destroy(effects.spray, 500)
+    pause(2000)
 }
